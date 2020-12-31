@@ -38,7 +38,7 @@ pause
 clear
 echo "PHP 7.4"
 echo "-------"
-apt install \
+apt install -y \
 php7.4-cli \
 php7.4-fpm \
 php7.4-common \
