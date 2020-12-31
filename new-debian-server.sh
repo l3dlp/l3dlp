@@ -13,7 +13,8 @@ echo "-------------"
 echo "deb http://nginx.org/packages/mainline/debian `lsb_release -cs` nginx" \ | sudo tee /etc/apt/sources.list.d/nginx.list
 curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
 # Apt(PHP)
-add-apt-repository ppa:ondrej/php
+wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
 # Run()
 apt update -y
 apt upgrade -y
@@ -22,7 +23,7 @@ pause
 clear
 echo "Minimal Toolset"
 echo "---------------"
-apt install -y curl vim-nox gnupg2 ca-certificates lsb-release software-properties-common linux-image-grsec-amd64
+apt install -y curl ca-certificates git gnupg2 lsb-release software-properties-common vim-nox
 pause
 
 clear
