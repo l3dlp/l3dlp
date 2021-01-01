@@ -23,7 +23,7 @@ pause
 clear
 echo "Minimal Toolset"
 echo "---------------"
-apt install -y curl ca-certificates git gnupg2 lsb-release software-properties-common vim-nox
+apt install -y ca-certificates curl dnsutils git gnupg2 lsb-release software-properties-common vim-nox
 pause
 
 clear
