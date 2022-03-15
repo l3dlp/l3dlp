@@ -37,4 +37,4 @@ Here are some ideas to get you started:
 
 <br /><br/>
 
-[![CadenEras's GitHub stats](https://github-readme-stats.vercel.app/api?username=l3dlp&show_icons=true&theme=white)](https://github.com/l3dlp-sandbox/github-readme-stats)
+[![CadenEras's GitHub stats](https://github-readme-stats.vercel.app/api?username=l3dlp&show_icons=true&theme=white&count_private=true)](https://github.com/l3dlp-sandbox/github-readme-stats)
