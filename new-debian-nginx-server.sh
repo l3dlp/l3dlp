@@ -49,4 +49,6 @@ sudo apt install php8.1 php8.1-fpm php8.1-cli -y
 
 # MYSQL
 sudo apt install mysql-client mysql-server 
+
+# FEEDBACK
 echo "ok"
