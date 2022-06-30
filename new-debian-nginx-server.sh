@@ -5,40 +5,22 @@ function pause(){
    read -t 17 -p "Press any key to continue..."
 }
  
-# INSTALL
-clear
-echo "Libs Upgrades"
-echo "-------------"
-# Apt(Nginx)
-echo "deb http://nginx.org/packages/mainline/debian `lsb_release -cs` nginx" \ | sudo tee /etc/apt/sources.list.d/nginx.list
-curl -fsSL https://nginx.org/keys/nginx_signing.key | sudo apt-key add -
-# Apt(PHP)
-wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
-echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
-# Run()
-apt update -y
-apt upgrade -y
-pause
+# APT
+sudo curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
+sudo echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install -y openssl ca-certificates apt-transport-https wget curl dnsutils git gnupg2 htop lsb-release software-properties-common sshfs vim-nox
 
-clear
-echo "Minimal Toolset"
-echo "---------------"
-apt install -y ca-certificates curl dnsutils git gnupg2 htop lsb-release software-properties-common sshfs vim-nox
-pause
+# SECURITY
+sudo apt install -y ufw
+sudo apt install -y fail2ban
+sudo ufw allow OpenSSH
+sudo ufw allow proto tcp from any to any port 80,443
+sudo ufw enable
 
-clear
-echo "Firewall"
-echo "--------"
-apt install -y ufw
-ufw allow OpenSSH
-ufw enable
-ufw status
-pause
-
-clear
-echo "PHP 7.4"
-echo "-------"
-apt install -y \
+# PHP 7.4
+sudo apt install -y \
 php7.4-cli \
 php7.4-fpm \
 php7.4-common \
@@ -63,18 +45,7 @@ php7.4-tidy \
 php7.4-xmlrpc \
 php7.4-xml \
 php7.4-zip
-pause
+sudo apt install php8.1 php8.1-fpm php8.1-cli -y
 
-clear
-echo "Nginx"
-echo "-----"
-apt install -y nginx
-usermod -a -G www-data nginx
-chown -R www-data /usr/share/nginx/html
-systemctl start nginx
-systemctl enable nginx
-ufw allow proto tcp from any to any port 80,443
-ufw status
-pause
-
-clear
+# MYSQL
+sudo apt install mysql-client mysql-server 
