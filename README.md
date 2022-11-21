@@ -1,8 +1,8 @@
-<!--
-### 📫 I’m currently working on [goph.re](https://github.com/gophre) and [caddy-security](https://github.com/datamixio/sys-webserver).
+
+### 📫 I’m currently working with [goph.re](https://github.com/gophre) and on [card.pm](https://card.pm).
 
 [![alt text](https://card.pm/cdn/fb/8ae7398026ed8f2172aefd6cbc856bc8.png)](https://l3dlp.com)
-
+<!--
 **l3dlp/l3dlp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -15,9 +15,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
 
 [![CadenEras's GitHub stats](https://github-readme-stats.vercel.app/api?username=l3dlp&show_icons=true&theme=white&count_private=true)](https://github.com/l3dlp-sandbox/github-readme-stats)
+-->
 
 ### Languages and Tools:
 
