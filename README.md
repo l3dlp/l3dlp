@@ -1,4 +1,6 @@
 
+![](https://l3dlp.net/assets/images/image04.jpg)
+
 ### 📫 I’m currently working with [goph.re](https://github.com/gophre) team on [personal.media](https://personal.media) large-scale project.
 
 <hr/>
