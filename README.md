@@ -1,14 +1,10 @@
 
-![](https://l3dlp.net/assets/images/image04.jpg)
+![](https://labs.l3dlp.com/assets/images/image04.jpg)
 
-### 📫 I’m currently working with [goph.re](https://github.com/gophre) team on [personal.media](https://personal.media) large-scale project.
+### 📫 2023/05. Working hard with [datamix.io](https://datamix.io) team to release [personal.media](https://personal.media) large-scale project.
 
 <hr/>
 <!--
-**l3dlp/l3dlp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -19,7 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 [![CadenEras's GitHub stats](https://github-readme-stats.vercel.app/api?username=l3dlp&show_icons=true&theme=white&count_private=true)](https://github.com/l3dlp-sandbox/github-readme-stats)
--->
 
 ### Languages and Tools:
 
@@ -40,4 +35,4 @@ Here are some ideas to get you started:
 <img align="left" alt="MongoDB" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />
 
 <br /><br/>
-
+-->
