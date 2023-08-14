@@ -5,7 +5,7 @@
 
 <hr/>
 
-![Metrics](github-metrics.svg)
+[![Metrics](github-metrics.svg)](https://l3dlp.net)
 
 <!--
 - 🔭 I’m currently working on ...
