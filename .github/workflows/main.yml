@@ -28,4 +28,8 @@ jobs:
           user: l3dlp
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_timezone: Europe/Paris
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
