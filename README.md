@@ -1,7 +1,7 @@
 
 ![](https://labs.l3dlp.com/assets/images/image04.jpg)
 
-### 📫 2023/08. Working hard with [datamix.io](https://github.com/datamixio) team to release [personal.media](https://github.com/personalmedia) large-scale project.
+### 📫 2023/09. Working hard with [datamix.io](https://github.com/datamixio) team on large-scale projects.
 
 <hr/>
 
