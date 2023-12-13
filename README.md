@@ -1,9 +1,6 @@
 
 ![](https://labs.l3dlp.com/assets/images/image04.jpg)
 
-### 📫 2023/09. Working hard with [datamix.io](https://github.com/datamixio) team on large-scale projects.
-
-<hr/>
 
 [![Metrics](github-metrics.svg)](https://l3dlp.net)
 
@@ -16,8 +13,6 @@
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-
-[![CadenEras's GitHub stats](https://github-readme-stats.vercel.app/api?username=l3dlp&show_icons=true&theme=white&count_private=true)](https://github.com/l3dlp-sandbox/github-readme-stats)
 
 ### Languages and Tools:
 
@@ -38,4 +33,5 @@
 <img align="left" alt="MongoDB" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />
 
 <br /><br/>
+
 -->
